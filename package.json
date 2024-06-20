@@ -59,11 +59,14 @@
     ]
   },
   "dependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "lib0": "^0.2.52",
     "lodash.debounce": "^4.0.8",
     "y-protocols": "^1.0.5"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
     "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^18.15.0",
     "@types/ws": "^8.5.10",
